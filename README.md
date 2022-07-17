@@ -1,70 +1,84 @@
-# Getting Started with Create React App
+# Вакансия разработчика HTML/CSS/JS (Junior)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
+## `Level 1`
 
 In the project directory, you can run:
 
-### `npm start`
+### `Q1`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Плохая верстка с точки зрения _пользователя_, это, прежде всего, плохая читаемость контента. Если текст выходит за видимую область, или просто плохо виден - то это плохая верстка. Важно еще, чтобы было удобно взаимодействовать с сайтом - чтобы все кнопки ссылки и кнопки были удобно кликабельными, чтобы всю необходимую информацию можно было получить легко и быстро. Хороший сайт - тот, на котором все выглядит гармонично, все цвета сочетаются между собой, а с контентом удобно взаимодействовать.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2. Для _менеджера проекта_ важно, чтобы в верстке были учтены все требования заказчика, чтобы верстка удовлетворяла требования дизайнера, бэкенд-разработчика и клиента. 
 
-### `npm test`
+3. С точки зрения _дизайнера_ хорошая верстка та, которая выполнена строго по макету. Для дизайнера важен каждый пиксель, поэтому прежде всего он будет смотреть именно на это. Помимо прочего важно сочетание цветов, комбинации шрифтов,расположение блоков, картинок, текста. Чтобы в макете была красота и гармония.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+4. Хорошая верстка с точки зрения _верстальщика_ - это прежде всего грамотно оформленный код, который можно будет в дальнейшем поддерживать или переиспользовать в других проектах. Хорошая верстка - это удобный, адаптированный под любые устройства сайт, который не поломается при добавлении дополнительного контента или наоборот его скрытия.
 
-### `npm run build`
+5. С точки зрения _клиентского программиста_ хороша та верстка, которая может быстро прогрузиться на стороне клиента, при этом не занимая лишнего места. Если сайт грузится дольше 10 секунд, велика вероятность, что его просто закроют, поэтому все это очень важно при верстке с точки зрения клиентского взаимодействия.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+6. С точки зрения _серверного программиста_ плохая верстка та, где есть сильная нагрузка на сервер. Например, тяжеловесные картинки, которые будут у клиента прогружаться с сервера. Хранение каких-либо лишних данных на сервере, которые будут снижать производительность. Для черверного программиста важна оптимизация контента.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### `Q2`
 
-### `npm run eject`
+На данный момент у меня нет опыта работы с крупными сайтами и их поддержкой, но есть общее представление. Такими проектами, как правило, занимается не один человек, поэтому важно, чтобы код был устроен максимально понятно, чтобы его не пришлось разбирать дольше, чем вноcить какие-либо изменения. 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+В последнее время становится популярным компонентый подход, в частности, различные фреймворки типа React. Когда весь сайт разбит на компоненты, нет нужды исправлять много кода, меньше вероятности, что будет что-то упущено из виду. Например, та же шапка сайта на всех страничках одинаковая, и добавить кнопку в одном компоненте или на каждой странице - огромная разница.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+У меня был опыт участия в хакатоне в команде из двух человек - меня и бекэнд-разработчика. Нашим итоговым проектом был трехтраничный сайт на _React_, где первая страница - главная, вторая - новости, а третья - архив новостей. За 48 часов работы мы несколько раз меняли дизайн, в самый последний момент добавляли в шапку кнопки скачивания и обновления данных, которых изначально там не предполагалась. И все это заняло бы гораздо больше времени, если бы не компонентый подход.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+В данном проекте я не использовала препроцессор _scss_, хотя стоило бы. Препроцессоры во многом облегчают работу верстальщика - не нужно прописывать и придумывать дополнительные классы, позволяют не дублировать стили.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+[Это ссылка на наш репозиторий](https://github.com/ecol-master/Hakaton-Flask-React-) 
 
-## Learn More
+Это мой первый опыт полноценной верстки сайта на _react_, до этого делала лишь пробные учебные макеты. Я постаралась качественно выполнить работу даже в условиях ограниченного времени, но любой код все равно нуждается в рефакторинге.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### `Q3`
 
-### Code Splitting
+Прежде всего стоит определиться с тем, какие версии браузеров необходимо поддерживать. Есть множество стилей, которые старые браузеры не поддерживают. Поэтому для них требуются специальные префиксы, которые, например, тот же _react_ или _scss_ проставлюят автоматически, что значительно упрощает работу, но и у них есть свои недостатки.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Для _iOS_ есть разные тонкости в верстки, которые иногда выявляются только при пользовании самим смартфоном на данной ОС. Поэтому лучше всего, конечно, тестировать сайт на реальном устройстве, хотя существуют разные программы для тестирования (например _labdatest_). А эмулятор устройств в браузере позволяет посмотреть, как сайт будет выглядеть на том или ином разрешении экрана.
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### `Q4`
 
-### Making a Progressive Web App
+У меня в VSCode стоит расширение _Prettier_, _LiveServer_, _eCSStractor_ (чтобы в ручную не копировать названия классов из _html_ документа), активно пользуюсь консолью и отладчиком браузера для быстрого поиска ошибок и их исправления.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### `Q5`
 
-### Advanced Configuration
+Первым делом открою консоль в браузере _IE_ и таким образом попробую узнать, что в коде не так. В _iOS_ нужно примерно понять, какой элемент отображен неверно, после чего можно уже будет пойти в гугл и там поискать причину, почему такое могло произойти. Многие проблемы уже описаны на просторах интернета, поэтому стоит поискать там. На практике с подобным не сталкивалась.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### `Q6`
 
-### Deployment
+Первым делом спрошу у дизайнерfа, но если ответа не будет, то добавлю элементу подчеркивание в цвет текста или увеличу жирность самого текста при наведении мыши, ну или в крайнем сделаю курсор лапкой, чтобы хоть как-то показать пользователю, что здесь можно совершить действие. 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### `Q7`
 
-### `npm run build` fails to minify
+Активно слежу за статьями на Habr, Tproger, часто приходится бывать на StackOverflow, различные каналы в телеграмме тоже помогают оставаться в курсе всего нового.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Мне нравится писать код и видеть результат этого кода, поэтому верстка для меня - это самая комфортная среда. 
+
+Мне также интересен дизайн, поэтому опыт в хакатоне был для меня таким новым и волнующим, ведь помимо всего прочего мне пришлось заниматься внешним видом нашего продукта. 
+
+### `Q8`
+
+Frontend-разработку я изучаю уже около 9 месяцев. Начинала с _html/css_, но быстро поняла, что этого не достаточно. Следом пошел _JS_, и когда я сделала свое первое бургер-меню на сайте, это был восторг.
+
+Вот две мои работы, выполнены на html/css/js. 
+
+1. [Демо](https://svetlanael12.github.io/cloudbudget) | [Код страницы](https://github.com/svetlanael12/cloudbudget)
+
+2. [Демо ](https://svetlanael12.github.io/mq-diplom/) | [Код страницы](https://github.com/svetlanael12/mq-diplom) 
+
+Помимо этого в качестве маленького проекта в моем портфолио есть игра "крестики-нолики". Из особенностей - я прописала автоматическую генерацию поля на основе выбраного размера и соответственно проверки на выигрыш/проигрыш/ниью. В данной версии есть на выбор поля только 3х3, 4х4, 5х5, но в теории если подставить туда 101х10, то игра отработает также корректно.
+
+[Демо](https://svetlanael12.github.io/tic-tac-toe/) | [Код страницы](https://github.com/svetlanael12/tic-tac-toe) 
+
+На данный момент я плотно изучаю _react_, поэтому тестовое задание тоже решила делать с его помощью, обучаясь некоторым вещам в процессе. Из примеров выше прикладывала ссылку на работу с хакатона, здесь тоже продублирую.
+
+[Cсылка на репозиторий](https://github.com/ecol-master/Hakaton-Flask-React-) 
+
+Я очень заинтересована именно в компании _FUNBOX_. Меня привлекает политика компании - нравится, что разработчики здесь непосредственно участвовуют в создании продукта, а не просто верстают по макету, не имея права голоса. Мне хочется попасть в команду, где я бы могла расти и учиться новому. Я знаю, что мой путь только начинается и из веб-разработки я знаю лишь самую малую часть, но в хорошем коллективе расти будет гораздо проще, чем в одиночку.
+
+### _Спасибо за уделенное мне время!_
