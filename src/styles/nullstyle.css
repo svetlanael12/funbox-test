@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "Exo";
+  src: url("../fonts/Exo2.0-Thin.otf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Trebuchet";
+  src: url("../fonts/TrebuchetMS.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Trebuchet-Bold";
+  src: url("../fonts/TrebuchetMS-Bold.ttf");
+  font-weight: 700;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  transition: 0.5s;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+a {
+  color: inherit;
+}
+
+img {
+  width: 100%;
+}

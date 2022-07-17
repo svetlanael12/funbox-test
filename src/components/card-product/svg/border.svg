@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 480" className="card__svg-border">
+        <defs>
+          <clipPath id="clip-path">
+            <polygon points="45,0 320,0 320,480 0,480 0,48" />
+          </clipPath>
+        </defs>
+        <g stroke-width="4">
+          <rect
+            x="2"
+            y="2"
+            rx="14"
+            clip-path="url(#clip-path)"
+            width="316"
+            height="476"
+          	fill="#fff"
+          />
+          <line x1="2" y1="48" x2="45" y2="2" />
+        </g>
+      </svg>
